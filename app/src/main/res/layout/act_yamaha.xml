@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".YamahaActivity">
+
+    <ImageButton
+        android:id="@+id/nmax"
+        android:layout_marginEnd="200dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nmaxyamaha"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
+                            Rp.300.000"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/miom3"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="135dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/miom3yamaha"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="135dp"
+        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
+                            Rp.350.000"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/mioshoul"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="270dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/miosoulyamaha"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="270dp"
+        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
+                            Rp.200.000"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/mio"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="405dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mioyamaha"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="405dp"
+        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
+                            Rp.250.000"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/vega"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="540dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vegayamaha"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="540dp"
+        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
+                            Rp.230.000"
+        android:textSize="16sp" />
+
+</LinearLayout>

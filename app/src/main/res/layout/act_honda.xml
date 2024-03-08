@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".HondaActivity">
+
+    <ImageButton
+        android:id="@+id/scopy"
+        android:layout_marginEnd="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/scopyhonda"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="SC0OPY"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="-200dp"
+        android:text="Skuter matik yang populer diproduksi oleh Honda. Rp. 25.000.000"
+        android:textSize="15dp"/>
+
+    <ImageButton
+        android:id="@+id/beat"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="135dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/beathonda"/>
+
+    <TextView
+        android:layout_marginTop="140dp"
+        android:text="BEAT"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="165dp"
+        android:text="Skuter matic yang diproduksi oleh perusahaan otomotif Jepang Rp. 17.000.000"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/pcx"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="270dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pcxhonda"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="290dp"
+        android:text="Skuter matik yang diproduksi oleh Honda Motor Co., Ltd.               Rp. 35.000.000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_marginTop="270dp"
+        android:text="PCX"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/vario"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="405dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/variohonda"/>
+
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="430dp"
+        android:text="Motor ini dilengkapi dengan mesin bertenaga yang efisien dalam konsumsi bahan bakar Rp.15.000.000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_marginTop="410dp"
+        android:text="VARIO"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/cbr"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginVertical="540dp"
+        android:layout_marginStart="-410dp"
+        android:layout_marginEnd="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cbrhonda"/>
+
+    <TextView
+        android:layout_marginTop="550dp"
+        android:text="CBR"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginVertical="570dp"
+        android:text="Menawarkan mesin yang bertenaga dan sistem pengereman canggih Rp. 50.000.000"
+        android:textSize="15dp" />
+
+</LinearLayout>
