@@ -10,19 +10,27 @@
     <ImageButton
         android:id="@+id/nmax"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/nmaxyamaha"
         android:layout_width="wrap_content"
         android:layout_height="130dp"/>
 
     <TextView
-        android:layout_width="198dp"
-        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:text="Nmax"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_marginStart="-200dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.300.000"
-        android:textSize="16sp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="-200dp"
+        android:text="Skuter matik yang populer diproduksi oleh Honda. Rp. 25.000.000"
+        android:textSize="15dp"/>
 
     <ImageButton
         android:id="@+id/miom3"
@@ -31,18 +39,25 @@
         android:layout_marginVertical="135dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/miom3yamaha"/>
 
     <TextView
-        android:layout_width="198dp"
+        android:layout_marginTop="140dp"
+        android:text="Miom3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="190dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="135dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.350.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="165dp"
+        android:text="Skuter matic yang diproduksi oleh perusahaan otomotif Jepang Rp. 17.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/mioshoul"
@@ -51,18 +66,25 @@
         android:layout_marginVertical="270dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/miosoulyamaha"/>
+
+    <TextView
+        android:layout_marginTop="270dp"
+        android:text="Mio Shoul"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="270dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.200.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="290dp"
+        android:text="Skuter matik yang diproduksi oleh Honda Motor Co., Ltd.               Rp. 35.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/mio"
@@ -71,18 +93,25 @@
         android:layout_marginVertical="405dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/mioyamaha"/>
+
+    <TextView
+        android:layout_marginTop="410dp"
+        android:text="Mio"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="405dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.250.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="430dp"
+        android:text="Motor ini dilengkapi dengan mesin bertenaga yang efisien dalam konsumsi bahan bakar Rp.15.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/vega"
@@ -91,17 +120,24 @@
         android:layout_marginVertical="540dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/vegayamaha"/>
+
+    <TextView
+        android:layout_marginTop="550dp"
+        android:text="Vega"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="540dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.230.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="570dp"
+        android:text="Menawarkan mesin yang bertenaga dan sistem pengereman canggih Rp. 50.000.000"
+        android:textSize="15dp" />
 
 </LinearLayout>
