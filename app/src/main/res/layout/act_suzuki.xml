@@ -10,19 +10,28 @@
     <ImageButton
         android:id="@+id/gsx"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
         android:src="@drawable/gsxsuzuky"
         android:layout_width="wrap_content"
-        android:layout_height="130dp"/>
+        android:layout_height="130dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="GSX"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
-        android:layout_height="130dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="27dp"
         android:layout_marginStart="-200dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.300.000"
-        android:textSize="16sp" />
+        android:text="Skuter matik yang populer diproduksi oleh Honda. Rp. 25.000.000"
+        android:textSize="15dp"/>
 
     <ImageButton
         android:id="@+id/raider"
@@ -31,18 +40,26 @@
         android:layout_marginVertical="135dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
-        android:src="@drawable/raidersuzuki"/>
+        android:src="@drawable/raidersuzuki"
+        android:background="@color/white"/>
 
     <TextView
-        android:layout_width="198dp"
+        android:layout_marginTop="140dp"
+        android:text="Raider"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="190dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="135dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.350.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="165dp"
+        android:text="Skuter matic yang diproduksi oleh perusahaan otomotif Jepang Rp. 17.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/satria"
@@ -51,18 +68,26 @@
         android:layout_marginVertical="270dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
+        android:background="@color/white"
         android:scaleType="fitCenter"
         android:src="@drawable/satriasuzuki"/>
+
+    <TextView
+        android:layout_marginTop="270dp"
+        android:text="Satria"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="270dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.200.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="290dp"
+        android:text="Skuter matik yang diproduksi oleh Honda Motor Co., Ltd.               Rp. 35.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/shogun"
@@ -71,18 +96,26 @@
         android:layout_marginVertical="405dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
-        android:src="@drawable/shogunsuzuki"/>
+        android:src="@drawable/shogunsuzuki"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="410dp"
+        android:text="Shogun"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="405dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.250.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="430dp"
+        android:text="Motor ini dilengkapi dengan mesin bertenaga yang efisien dalam konsumsi bahan bakar Rp.15.000.000"
+        android:textSize="15dp" />
 
     <ImageButton
         android:id="@+id/avenis"
@@ -91,17 +124,25 @@
         android:layout_marginVertical="540dp"
         android:layout_marginStart="-410dp"
         android:layout_marginEnd="200dp"
-        android:background="#fff"
         android:scaleType="fitCenter"
-        android:src="@drawable/avenissuzuki"/>
+        android:src="@drawable/avenissuzuki"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="550dp"
+        android:text="Avenis"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="-200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="198dp"
         android:layout_height="130dp"
         android:layout_marginStart="-200dp"
-        android:layout_marginVertical="540dp"
-        android:text="Deskripsi: baju yang dilengkapi dengan fitur yang bagus
-                            Rp.230.000"
-        android:textSize="16sp" />
+        android:layout_marginVertical="570dp"
+        android:text="Menawarkan mesin yang bertenaga dan sistem pengereman canggih Rp. 50.000.000"
+        android:textSize="15dp" />
 
 </LinearLayout>
