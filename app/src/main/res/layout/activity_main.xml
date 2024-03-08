@@ -22,6 +22,7 @@
         android:layout_marginTop="20dp"
         android:text="Honda"
         android:textSize="25dp"
+        android:backgroundTint="#2E40A5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <ImageView
@@ -39,6 +40,7 @@
         android:layout_marginTop="20dp"
         android:text="Yamaha"
         android:textSize="25dp"
+        android:backgroundTint="#2E40A5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <ImageView
@@ -56,6 +58,7 @@
         android:layout_marginTop="20dp"
         android:text="Suzuki"
         android:textSize="25dp"
+        android:backgroundTint="#2E40A5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
